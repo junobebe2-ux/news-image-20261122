@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>THE WORLD — Sunday, 22 November 2026</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1024px; height: 1024px; overflow: hidden; }
+  body { background: #f6f2e9; font-family: Georgia, 'Times New Roman', serif; color: #111; }
+  .page { width: 1024px; height: 1024px; padding: 12px 26px 10px; display: flex; flex-direction: column; }
+
+  /* ---------- masthead ---------- */
+  .topbar { display: flex; justify-content: space-between; font-family: Arial, Helvetica, sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #333; padding-bottom: 4px; border-bottom: 1px solid #111; }
+  .masthead { text-align: center; padding: 2px 0 1px; }
+  .masthead h1 { font-size: 82px; line-height: 0.95; letter-spacing: 6px; font-weight: 900; }
+  .dateline { text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 13px; letter-spacing: 3px; text-transform: uppercase; padding: 4px 0 5px; border-bottom: 4px double #111; }
+  .dateline b { color: #a31212; }
+
+  /* ---------- hero ---------- */
+  .hero { padding: 9px 0 8px; border-bottom: 1px solid #111; }
+  .kicker { font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; letter-spacing: 3px; text-transform: uppercase; color: #a31212; }
+  .hero h2 { font-size: 52px; line-height: 1.0; font-weight: 900; letter-spacing: 1px; margin: 3px 0 5px; }
+  .hero h2 span { color: #a31212; }
+  .hero p { font-size: 17px; line-height: 1.3; }
+  .hero .facts { display: flex; gap: 0; margin-top: 8px; border-top: 1px solid #999; border-bottom: 1px solid #999; }
+  .hero .facts div { flex: 1; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 12px; letter-spacing: 1px; padding: 4px 4px; text-transform: uppercase; }
+  .hero .facts div + div { border-left: 1px solid #999; }
+  .hero .facts b { font-size: 17px; display: block; letter-spacing: 0; }
+
+  /* ---------- second story ---------- */
+  .second { display: flex; gap: 18px; padding: 8px 0 8px; border-bottom: 1px solid #111; }
+  .second .main { flex: 1.65; }
+  .second h3 { font-size: 29px; line-height: 1.08; font-weight: 900; margin: 2px 0 4px; }
+  .second p { font-size: 14.5px; line-height: 1.35; }
+  .second .side { flex: 1; border: 2px solid #111; padding: 8px 11px; background: #fff; }
+  .second .side h4 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; border-bottom: 1px solid #111; padding-bottom: 4px; margin-bottom: 6px; }
+  .second .side ul { list-style: none; font-size: 13.5px; line-height: 1.45; }
+  .second .side li { padding: 2px 0; }
+  .second .side li b { font-size: 16px; }
+
+  /* ---------- markets strip ---------- */
+  .markets { background: #111; color: #fff; display: flex; align-items: center; gap: 16px; padding: 7px 14px; margin: 7px 0; }
+  .markets .label { font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; letter-spacing: 3px; border: 1px solid #fff; padding: 3px 8px; white-space: nowrap; }
+  .markets .nums { font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: bold; letter-spacing: 0.5px; white-space: nowrap; }
+  .markets .nums span { color: #ff5a5a; }
+  .markets .note { font-size: 13.5px; line-height: 1.25; font-style: italic; }
+
+  /* ---------- story grid ---------- */
+  .grid { flex: 1; display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: repeat(5, 1fr); }
+  .cell { padding: 5px 10px 4px; border-top: 1px solid #bbb; overflow: hidden; }
+  .cell:nth-child(3n+2), .cell:nth-child(3n+3) { border-left: 1px solid #bbb; }
+  .cell .kick { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; color: #a31212; }
+  .cell h4 { font-size: 14px; line-height: 1.15; font-weight: 900; margin: 2px 0 2px; }
+  .cell p { font-size: 11.5px; line-height: 1.3; color: #222; }
+
+  /* ---------- footer ---------- */
+  .footer { border-top: 3px double #111; margin-top: 6px; padding-top: 5px; display: flex; justify-content: space-between; font-family: Arial, Helvetica, sans-serif; font-size: 10.5px; letter-spacing: 1px; text-transform: uppercase; color: #444; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="topbar">
+    <span>Vol. 1 &mdash; No. 22</span>
+    <span>One day &middot; One front page</span>
+    <span>18 stories</span>
+  </div>
+
+  <div class="masthead"><h1>THE WORLD</h1></div>
+  <div class="dateline"><b>Sunday, 22 November 2026</b> &nbsp;&middot;&nbsp; World news in one image</div>
+
+  <div class="hero">
+    <div class="kicker">Climate &middot; Antalya, Turkey</div>
+    <h2>COP31 <span>COLLAPSES</span></h2>
+    <p>Climate talks in Antalya end on Sunday with <b>no deal at all</b> &mdash; the European Union formally objected to a final text with no mention of fossil fuels, and the summit closed two days late with no agreement.</p>
+    <div class="facts">
+      <div><b>2 days late</b>summit overran</div>
+      <div><b>0 mentions</b>of fossil fuels in text</div>
+      <div><b>EU objected</b>formally, in session</div>
+    </div>
+  </div>
+
+  <div class="second">
+    <div class="main">
+      <div class="kicker">Middle East &middot; Bahrain &amp; the Gulf</div>
+      <h3>Iran strikes US bases in Bahrain</h3>
+      <p>Missiles and drones hit US bases in Bahrain; a civilian industrial facility was struck and two people were injured, one critically. Iran claims it destroyed two US Patriot radars. Two oil tankers were struck near the Strait of Hormuz, as Trump dares Iran to break the US port blockade &mdash; and may not decide his next steps until 2027.</p>
+    </div>
+    <div class="side">
+      <h4>Strait of Hormuz</h4>
+      <ul>
+        <li><b>2</b> oil tankers struck near the strait</li>
+        <li><b>2</b> Patriot radars claimed destroyed</li>
+        <li><b>2</b> injured, one critically</li>
+        <li><b>2027</b> earliest US decision, Trump signals</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="markets">
+    <div class="label">MARKETS</div>
+    <div class="nums">S&amp;P 500 <span>&minus;3.7%</span> &nbsp;&middot;&nbsp; Nasdaq <span>&minus;5.3%</span> &nbsp;&middot;&nbsp; Nikkei <span>&minus;5.06%</span></div>
+    <div class="note">AI sell-off deepens amid Nvidia turmoil.</div>
+  </div>
+
+  <div class="grid">
+    <div class="cell"><div class="kick">Mexico</div><h4>&ldquo;El Chapo Isidro&rdquo; captured</h4><p>FBI most-wanted Fausto Isidro Meza Flores seized in a Sinaloa raid; 11 killed, including four soldiers.</p></div>
+    <div class="cell"><div class="kick">Ukraine</div><h4>Missile hits Zelenskyy&rsquo;s hometown</h4><p>Russian strike on Kryvyi Rih kills a boy, 7, and a woman, 20; 60 wounded. A block in Dymer partly collapses; 3 dead.</p></div>
+    <div class="cell"><div class="kick">US Politics</div><h4>Democrats clinch 258 House seats</h4><p>Largest US House majority since 1992.</p></div>
+    <div class="cell"><div class="kick">Indonesia</div><h4>Candy factory fire kills 3</h4><p>Fonusa Agung Mulia plant in Cikande, Banten; 36 missing, remains found in 24 body bags.</p></div>
+    <div class="cell"><div class="kick">Trade</div><h4>EU&ndash;Indonesia deal after 10 years</h4><p>Landmark pact scraps tariffs on up to 98.5% of goods.</p></div>
+    <div class="cell"><div class="kick">The Hague</div><h4>ICJ rules on Myanmar genocide</h4><p>Rohingya in Bangladesh welcome the verdict but say they want to go home; rights groups urge sanctions.</p></div>
+    <div class="cell"><div class="kick">Shenzhen</div><h4>Trump, Xi and Putin meet</h4><p>First trilateral summit: a joint declaration on nuclear risks, but no new arms limits and no Ukraine breakthrough.</p></div>
+    <div class="cell"><div class="kick">West Bank</div><h4>Settlers torch homes near Ramallah</h4><p>Israel opens an inquiry; the opposition leader calls it &ldquo;terrorism&rdquo;. Gaza strikes continue despite the ceasefire framework.</p></div>
+    <div class="cell"><div class="kick">Nigeria</div><h4>Boat capsizes on way to funeral</h4><p>At least 24 dead.</p></div>
+    <div class="cell"><div class="kick">Space</div><h4>BepiColombo reaches Mercury</h4><p>European-Japanese probe enters orbit around the planet.</p></div>
+    <div class="cell"><div class="kick">Cyber</div><h4>FBI probes NCIC breach</h4><p>Intrusion into the National Crime Information Center under investigation.</p></div>
+    <div class="cell"><div class="kick">Poland</div><h4>Russian missiles land in Poland</h4><p>NATO calls it a violation and reaffirms its defence of Poland.</p></div>
+    <div class="cell"><div class="kick">Atlanta</div><h4>Delta outage delays hundreds</h4><p>Computer and baggage failure hits flights nationwide; the Atlanta hub is worst affected.</p></div>
+    <div class="cell"><div class="kick">US Politics</div><h4>Trump backs 10% card-rate cap</h4><p>President says he will work with Democrats on a 10% ceiling on credit-card interest.</p></div>
+    <div class="cell"><div class="kick">Sudan</div><h4>Drones hit Khartoum, UN building</h4><p>Houthis say they hit a Saudi refinery; Saudi Arabia intercepts missiles.</p></div>
+  </div>
+
+  <div class="footer">
+    <span>Sources: AP &middot; Reuters &middot; AFP &middot; KIRO &middot; Russell Record</span>
+    <span>Compiled Sunday 22 November 2026</span>
+  </div>
+
+</div>
+</body>
+</html>
